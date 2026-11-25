@@ -1,0 +1,29 @@
+; Name: Ahmed Mohammed selim
+; Student ID: 2025003576
+; Section: Section 6
+; Question: 3
+
+LXI H, 2500H
+MOV C, M
+MVI D, 00H
+MVI E, 00H
+NEXT_ELEM: INX H
+MOV A, M
+RRC
+JC IS_ODD
+INR D
+JMP CHECK_LOOP
+IS_ODD: INR E
+CHECK_LOOP: DCR C
+JNZ NEXT_ELEM
+MOV A, D
+STA 2600H
+MOV A, E
+STA 2601H
+HLT
+
+
+
+
+
+

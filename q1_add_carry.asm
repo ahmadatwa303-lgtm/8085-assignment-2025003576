@@ -1,0 +1,19 @@
+; Name: Ahmed Mohammed selim
+; Student ID: 2025003576
+; Section: Section 6
+; Question: 1
+
+LDA 2500H
+MOV B, A
+LDA 2501H
+ADD B
+STA 2502H
+MVI C, 00H
+JNC SAVE_CARRY
+MVI C, 01H
+JMP SAVE_CARRY
+SAVE_CARRY: MOV A, C
+STA 2503H
+HLT
+
+
