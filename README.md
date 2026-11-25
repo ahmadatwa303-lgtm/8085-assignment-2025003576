@@ -2,6 +2,6 @@
 8085
 
 NAME: Ahmed Mohammed Selim
-ID_STUDENT: 2025003576
-SECTION: 6
+ID_STUDENT:2025003576
+SECTION: 6 
 ىشةث: شاةثي ة
